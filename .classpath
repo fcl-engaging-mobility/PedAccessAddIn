@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="CopyOfDockableWindowSergio.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="com.esri.arcgis.core.lib.classpathContainerInitializer.desktop"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/ArcGIS/Desktop10.2/java/lib/ext/jgrapht-core-0.9.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

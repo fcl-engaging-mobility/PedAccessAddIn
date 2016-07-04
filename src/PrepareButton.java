@@ -622,7 +622,7 @@ public class PrepareButton extends Button {
 				p.setY(((IPoint)feature.getShape()).getY());
 				double size = 1;
 				if(sizeIndex!=-1) {
-					size = (Double) feature.getValue(sizeIndex);
+					size = feature.getValue(sizeIndex) instanceof Double ? (Double) feature.getValue(sizeIndex):feature.getValue(sizeIndex) instanceof Integer ? ((Integer) feature.getValue(sizeIndex)).doubleValue():((Short) feature.getValue(sizeIndex)).doubleValue();
 					if(size>maxSize )
 						maxSize = size;
 				}

@@ -122,7 +122,7 @@ public class CalculateBulkButton extends Button {
 							subGraph.setEdgeWeight(edgeF, costRoad*c.coord.getDistance(road.cF.coord)/road.cT.coord.getDistance(road.cF.coord));
 							subGraph.setEdgeWeight(edgeT, costRoad*c.coord.getDistance(road.cT.coord)/road.cF.coord.getDistance(road.cT.coord));
 							progressBar.setValue(5);
-							progressBar.setToolTipText("Rotation links");
+							/*progressBar.setToolTipText("Rotation links");
 							lProgress.setText("Rotation links");
 							for(CalculateButton.NodeCoord nCoord:subGraph.vertexSet())
 								for(CalculateButton.NodeCoord nCoordO:subGraph.vertexSet())
@@ -132,7 +132,7 @@ public class CalculateBulkButton extends Button {
 										double y = nCoord.coord.y, ya = nCoord.fromCoord.y, yb = nCoordO.coord.y;
 										double angle = Math.acos(((x-xa)*(xb-x)+(y-ya)*(yb-y))/(Math.hypot(x-xa, y-ya)*Math.hypot(xb-x, yb-y)));
 										PrepareButton.graph.setEdgeWeight(nEdge, ParametersButton.rotationTime*angle/Math.PI);
-									}
+									}*/
 							progressBar.setValue(30);
 							progressBar.setToolTipText("Shortest path algorithm");
 							lProgress.setText("One-to-N shortest path");

@@ -1,0 +1,3 @@
+# A Pedestrian Accessibility Tool For ArcGIS
+The Pedestrian Accessibility Tool has been developed in the context of the project "Walkability and Pedestrian Route Choice" conducted by the Future Cities Labortatory of the Singapore ETH Centre. The research project "Walkability and Pedestrian Route Choice" aimed to develop a walkability index that is behaviourally founded and to provide software tools that allow for the evaluation of existing and future urban plans with regards to walkability.
+The Pedestrian Accessibility Add-In has been developed for ESRI ArcMap and has been tested with ESRI ArcMap 10.2 and 10.3. 
